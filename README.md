@@ -6,4 +6,38 @@ Face Detection based attendance system
 - openCV (Opensource Computer Vision)
 ## How it works :
 
-When we run train.py a window is opened and ask for Enter Id and Enter Name. After enter name and id then we have to click Take Images button. By clicking Take Images camera of running computer is opened and it start taking image sample of person.This Id and Name is stored in folder StudentDetails and file name is StudentDetails.csv. It takes 60 images as sample and store them in folder TrainingImage.After completion it notify that iamges saved. After taking image sample we have to click Train Image button.Now it take few seconds to train machine for the images that are taken by clicking Take Image button and creates a Trainner.yml file and store in TrainingImageLabel folder. Now all initial setups are done. By clicking Track Image button camera of running machine is opened again. If face is recognised by system then Id and Name of person is shown on Image. Press Q(or q) for quit this window.After quitting it attendance of person will be stored in Attendance folder as csv file with name, id, date and time and it is also available in window.
+### Launching the Application:
+
+- Run train.py: This script initiates the application.
+- Enter ID and Name: A window prompts you to input the ID and Name of the person.
+
+### Capturing Images:
+
+- Click 'Take Images':
+The computer's camera opens.
+60 image samples of the person are captured.
+- Storage:
+The ID and Name are stored in a file named StudentDetails.csv in the StudentDetails folder.
+The captured images are saved in the TrainingImage folder.
+Notification: The system notifies you once the images are saved.
+
+### Training the Model:
+
+- Click 'Train Image':
+The system processes the captured images to train the model.
+A Trainner.yml file is created and stored in the TrainingImageLabel folder.
+- Duration: This process takes a few seconds.
+
+### Tracking and Recognizing Faces:
+
+- Click 'Track Image':
+The camera opens again.
+If a face is recognized, the system displays the ID and Name of the person on the screen.
+- Exiting the Window:
+Press Q or q to close the window.
+Upon exit, the system logs the attendance of the recognized person.
+
+### Attendance Logging:
+
+- Storage: Attendance details, including Name, ID, Date, and Time, are saved in a CSV file within the Attendance folder.
+- Display: The attendance record is also displayed on the window.
