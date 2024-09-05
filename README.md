@@ -25,7 +25,7 @@ Notification: The system notifies you once the images are saved.
 
 - Click 'Train Image':
 The system processes the captured images to train the model.
-A Trainner.yml file is created and stored in the TrainingImageLabel folder.
+A Trainner.yml file is created & stored in the TrainingImageLabel folder.
 - Duration: This process takes a few seconds.
 
 ### Tracking and Recognizing Faces:
