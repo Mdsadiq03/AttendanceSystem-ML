@@ -32,7 +32,7 @@ A Trainner.yml file is created & stored in the TrainingImageLabel folder.
 
 - Click 'Track Image':
 The camera opens again.
-If a face is recognized, the system displays the ID and Name of the person on the screen.
+If a face is recognized, the system displays the ID & Name of the person on the screen.
 - Exiting the Window:
 Press Q or q to close the window.
 Upon exit, the system logs the attendance of the recognized person.
