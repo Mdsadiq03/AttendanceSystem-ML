@@ -9,7 +9,7 @@ Face Detection based attendance system
 ### Launching the Application:
 
 - Run train.py: This script initiates the application.
-- Enter ID and Name: A window prompts you to input the ID & Name of the person.
+- Enter ID & Name: A window prompts you to input the ID & Name of the person.
 
 ### Capturing Images:
 
