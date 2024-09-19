@@ -9,7 +9,7 @@ Face Detection based attendance system
 ### Launching the Application:
 
 - Run train.py: This script initiates the application.
-- Enter ID and Name: A window prompts you to input the ID & Name of the person.
+- Enter ID and Name: A window prompts you to input the ID and Name of the person.
 
 ### Capturing Images:
 
@@ -32,7 +32,7 @@ A Trainner.yml file is created and stored in the TrainingImageLabel folder.
 
 - Click 'Track Image':
 The camera opens again.
-If a face is recognized, the system displays the ID & Name of the person on the screen.
+If a face is recognized, the system displays the ID and Name of the person on the screen.
 - Exiting the Window:
 Press Q or q to close the window.
 Upon exit, the system logs the attendance of the recognized person.
