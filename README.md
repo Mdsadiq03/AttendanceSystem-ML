@@ -39,5 +39,5 @@ Upon exit, the system logs the attendance of the recognized person.
 
 ### Attendance Logging:
 
-- Storage: Attendance details, including Name, ID, Date, and Time, are saved in a CSV file within the Attendance folder.
+- Storage: Attendance details, including Name, ID, Date, & Time, are saved in a CSV file within the Attendance folder.
 - Display: The attendance record is also displayed on the window.
