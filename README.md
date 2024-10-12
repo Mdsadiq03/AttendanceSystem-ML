@@ -17,7 +17,7 @@ Face Detection based attendance system
 The computer's camera opens.
 60 image samples of the person are captured.
 - Storage:
-The ID & Name are stored in a file named StudentDetails.csv in the StudentDetails folder.
+The ID and Name are stored in a file named StudentDetails.csv in the StudentDetails folder.
 The captured images are saved in the TrainingImage folder.
 Notification: The system notifies you once the images are saved.
 
