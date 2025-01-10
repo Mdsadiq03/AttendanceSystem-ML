@@ -28,6 +28,11 @@ The system processes the captured images to train the model.
 A Trainner.yml file is created and stored in the TrainingImageLabel folder.
 - Duration: This process takes a few seconds.
 
+### Attendance Logging:
+
+- Storage: Attendance details, including Name, ID, Date, & Time, are saved in a CSV file within the Attendance folder.
+- Display: The attendance record is also displayed on the window.
+
 ### Tracking and Recognizing Faces:
 
 - Click 'Track Image':
@@ -37,10 +42,7 @@ If a face is recognized, the system displays the ID and Name of the person on th
 Press Q or q to close the window.
 Upon exit, the system logs the attendance of the recognized person.
 
-### Attendance Logging:
 
-- Storage: Attendance details, including Name, ID, Date, & Time, are saved in a CSV file within the Attendance folder.
-- Display: The attendance record is also displayed on the window.
 
 
 
