@@ -21,13 +21,6 @@ The ID and Name are stored in a file named StudentDetails.csv in the StudentDeta
 The captured images are saved in the TrainingImage folder.
 Notification: The system notifies you once the images are saved.
 
-### Training the Model:
-
-- Click 'Train Image':
-The system processes the captured images to train the model.
-A Trainner.yml file is created and stored in the TrainingImageLabel folder.
-- Duration: This process takes a few seconds.
-
 ### Tracking and Recognizing Faces:
 
 - Click 'Track Image':
@@ -41,6 +34,15 @@ Upon exit, the system logs the attendance of the recognized person.
 
 - Storage: Attendance details, including Name, ID, Date, & Time, are saved in a CSV file within the Attendance folder.
 - Display: The attendance record is also displayed on the window.
+
+### Training the Model:
+
+- Click 'Train Image':
+The system processes the captured images to train the model.
+A Trainner.yml file is created and stored in the TrainingImageLabel folder.
+- Duration: This process takes a few seconds.
+
+
 
 
 
